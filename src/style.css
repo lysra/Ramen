@@ -1,0 +1,115 @@
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  border-radius: 10%;
+}
+
+.ramenimg {
+  max-width: 600px;
+  max-height: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  text-align: center;
+  display: block;
+}
+
+div {
+  text-align: left;
+  padding: 5px 20px;
+  font-family: monospace;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0px auto;
+}
+
+.description {
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ingredients {
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  margin: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 300px;
+  max-height: 600px;
+}
+
+.recipe {
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  margin: 10px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  max-width: 430px;
+  max-height: 600px;
+}
+
+button {
+  background: white;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  display: block;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 20px auto;
+  padding: 15px 25px;
+  transition: all 200ms ease-in-out;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.newsletter {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.hrfooter {
+  max-width: 600px;
+}
+
+.footer {
+  text-align: center;
+  font-family: monospace;
+  color: darkgrey;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
